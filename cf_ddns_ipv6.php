@@ -136,7 +136,7 @@ function getIPv6($static_IPv6_mode, $last_notable_hexes) {
 }
 
 // 测试函数
-$ipv6 = getIPv6(true, "966a"); // 测试本地 IPv6
+$ipv6 = getIPv6(true, "1234"); // 测试本地 IPv6
 if ($ipv6) {
     echo ";Local IPv6 address: " . $ipv6 . "\n";
 } else {
